@@ -25,7 +25,6 @@
   background: var(--base);
 }
 .content div {
-  /* height: 50vh; */
   background: #fff;
   display: flex;
   align-items: center;
@@ -39,6 +38,4 @@
 .control {
   display: grid;
   grid-template-columns: auto auto auto;
-}
-.control_container {
 }
