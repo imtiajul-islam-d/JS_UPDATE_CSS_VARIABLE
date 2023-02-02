@@ -1,0 +1,44 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2em;
+}
+.heading h1 span {
+  color: var(--base);
+  font-size: 1.9rem;
+}
+.content {
+  padding: var(--spacing);
+  background: var(--base);
+}
+.content div {
+  /* height: 50vh; */
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content img {
+  max-height: 50vh;
+  max-width: 100%;
+  filter: blur(var(--blur));
+}
+.control {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.control_container {
+}

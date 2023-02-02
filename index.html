@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic CSS-Variable</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="heading">
+            <h1>UPDATE CSS CSS-VARIABLE-WITH <br> <span>JS</span></h1>
+        </div>
+        <div class="content">
+            <div>
+                <img src="./assets/image/preloader.png" alt="Image">
+            </div>
+        </div>
+        <div class="control">
+            <div class="control_container blur_container">
+                <label for="blur">Blur</label>
+                <input type="range" name="blur" id="blur" min="0" max="200" value="0" data-sizing="px">
+            </div>
+            <div class="control_container space_container">
+                <label for="space">Space</label>
+                <input type="range" name="spacing" id="spacing" min="0" max="25" value="10" data-sizing="px">
+            </div>
+            <div class="control_container color_container">
+                <label for="color">Color</label>
+                <input type="color" value="#ffc600" name="base" id="base">
+            </div>
+        </div>
+    </section>
+    <script src="/assets//main.js"></script>
+</body>
+
+</html>
